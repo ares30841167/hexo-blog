@@ -1,0 +1,83 @@
+#################################################################
+###################### Hexo Configuration #######################
+#################################################################
+
+# Site
+title: 日常學習手札
+subtitle: 紀錄各種學習過程
+keywords: "學習筆記,經驗,Javascript,MERN,Node.js,微服務,CI/CD,DevOps,Docker,Linux,Kubernetes,容器化"
+author: GUAN-YU CHEN
+language: zh-TW
+
+# URL
+url: https://guanyu.dev
+permalink: :title/
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+  - robots.txt
+  - animate/*
+  - highlight/*
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link:
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: false
+  auto_detect: false
+  tab_replace: ''
+
+# Home page setting
+index_generator:
+  per_page: 4
+  order_by: -date
+
+# Category & Tag
+default_category: 未分類
+category_map:
+tag_map:
+
+# Date / Time format
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination
+per_page: 5
+pagination_dir: page
+
+# Extensions
+theme: next
+
+archive_generator:
+  per_page: 12
+  yearly: true
+  monthly: true
+  daily: false
+
+marked:
+  # For preserve original quotes in code blocks.
+  smartypants: false
+  lazyload: true
+
+search:
+  path: search.json
+  field: all
