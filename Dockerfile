@@ -17,4 +17,4 @@ WORKDIR /Hexo
 
 ENTRYPOINT ["bash"]
 
-# docker run -it --rm -v "$(pwd)":/Hexo -p 127.0.0.1:3000:4000 hexo
+# docker run -it --restart unless-stopped -v "$(pwd)":/Hexo -p 127.0.0.1:3000:4000 hexo
