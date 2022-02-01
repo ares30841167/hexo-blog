@@ -17,8 +17,8 @@ comments: false
 ## 學歷
 - 元智大學資訊工程學系學士 2018-2022
 
-## 接觸過的語言與工具
-- MongoDB/Express/React.js/Node.js (較常使用)
+## 曾經接觸過的語言與工具
+- MongoDB/Express/React.js/Node.js
 - Laravel/PHP
 - Flutter
 - Kotlin
@@ -31,12 +31,13 @@ comments: false
 - R
 - Verilog
 - Docker
-- Kubernetes (學習中)
+- Podman
+- Kubernetes
 - AWS
 - Git
-- CI/CD (學習中)
-- Microservice (學習中)
-- Linux Server Experience
+- CI/CD
+- Microservice
+- Linux Server Basic Management Experience
 
 ## 語言能力
 - 中文
