@@ -2,7 +2,7 @@
 title: 【踩坑記】WireGuard的AllowedIPs設定
 date: 2022-01-30 14:52:25
 categories:
-  - 網路
+  - 踩坑記
 tags:
   - 學習筆記
   - 踩坑
