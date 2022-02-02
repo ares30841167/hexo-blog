@@ -1,5 +1,5 @@
 ---
-title: Kubernetes學習筆記(一) - 起點
+title: Kubernetes學習筆記(零) - 起點
 date: 2022-02-01 19:33:14
 categories:
   - Kubernetes基礎學習筆記系列
