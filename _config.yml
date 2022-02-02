@@ -81,3 +81,8 @@ marked:
 search:
   path: search.json
   field: all
+
+hide_posts:
+  filter: hidden
+  public_generators: []
+  noindex: true
