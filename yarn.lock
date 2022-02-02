@@ -1079,7 +1079,7 @@ hexo-generator-searchdb@^1.4.0:
   dependencies:
     nunjucks "^3.2.2"
 
-hexo-generator-sitemap@^2.1.0:
+hexo-generator-sitemap@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/hexo-generator-sitemap/-/hexo-generator-sitemap-2.2.0.tgz#4422670b6d9bbf8e512bc1219c4409f330cf3291"
   integrity sha512-WoS/GpdrazoiFuhZXS3Qnb22L0uaiKHHWefcsoE7JLjh8WsksFom4v2FoNhr1RIYwFV7SudQFs91P5xcW+Gfow==
