@@ -15,6 +15,7 @@ tags:
 這個系列會記錄我學習到的Kubernetes知識，主要是一系列的學習筆記，從架設到實際部屬簡單的容器APP，並嘗試管理以及操作Kubernetes集群。
 
 2021年的8月其實我有買了一本Gigi Sayfan寫的[Kubernetes 微服務實戰](https://www.tenlong.com.tw/products/9787111655763)，但只看了前面兩三章，還沒有完全看完(汗)。這個系列並沒有包含這本書的學習筆記，之後再開另一個系列筆記來紀錄。
+<!-- more -->
 
 # 規劃
 此次目標會從Kubernetes的架設開始，並嘗試將Kubernetes群集設定為高可用的狀態，避免SPOF(單點故障)的發生，再到熟悉使用Kubernetes的kubectl對群集進行各種操作與設定，之後嘗試部屬簡易的容器APP並暴露服務，最終希望配合Nginx來做群集服務的Ingress以及Load Balance。
