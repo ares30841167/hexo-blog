@@ -42,7 +42,8 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: false
+  line_number: true
+  first_line_number: 'inline'
   auto_detect: false
   tab_replace: ''
 
