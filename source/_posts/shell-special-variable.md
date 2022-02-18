@@ -1,9 +1,9 @@
 ---
-title: 【筆記】Shell中的特殊變數
+title: 【隨手筆記】Shell中的特殊變數
 categories:
-  - 隨堂筆記
+  - 隨手筆記
 tags:
-  - 隨堂筆記
+  - 隨手筆記
   - Linux
   - Shell
   - Shell Script
