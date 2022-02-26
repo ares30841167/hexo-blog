@@ -169,12 +169,11 @@ frontend apiserver # 代理入口設定區塊，名為 apiserver
 # 設定後端應用程式代理，以RR循環的方式將請求分配到後端的Master Node上
 #---------------------------------------------------------------------
 backend apiserver # 後端應用程式代理設定區塊，名為apiserver
-        option httpchk GET /livez # 定期對後端應用程式的 /livez (kube-apiserver的health check路徑) 路徑執行 HTTP Check
-        http-check expect status 200 # HTTP Check 預期希望回傳的結果為 200 Success
         mode tcp # 使用 TCP Layer 4 代理模式
         option tcplog # 紀錄 TCP 連接的 Log
+        option ssl-hello-chk # 傳送SSLv3 Hello封包測試SSL連線是否正常
         balance     roundrobin # 使用 Round Robin 循環的方式分配流量到以下後端清單
-            # server ${HOST_ID} ${HOST_ADDRESS}:${APISERVER_SRC_PORT} check -- 代理送往的執行個體IP與端口，最後的 check 表示啟用 health check 功能，以自動剔除故障流量
+            # server ${HOST_ID} ${HOST_ADDRESS}:${APISERVER_SRC_PORT} check -- 代理送往的執行個體IP與端口，最後的 check 表示啟用 TCP health check 功能，以自動剔除故障流量
             server k8s-master-1 10.0.254.250:6443 check # 換成你練習或正式環境的 Master Node 主機資訊
             server k8s-master-2 10.0.254.249:6443 check # 換成你練習或正式環境的 Master Node 主機資訊
             server k8s-master-3 10.0.254.248:6443 check # 換成你練習或正式環境的 Master Node 主機資訊
