@@ -47,12 +47,12 @@ tags:
 
 就是因為這樣，所以從其他路由器來的封包，在原先使用Masquerade設定的情況下，是可以順利被轉發的，因為Src已經被改寫成Site to Site VPN所屬的IP。但在修改設定後，我們使封包的Src保持原樣，所以這時候就會因為這條規則的關係，沒辦法正常的被轉發。
 
+我們只要將這個Src. Address List的限制拿掉，就可以恢復路由器之間的正常連線了。
+
 ![](/lan-ip-masquerade-issues/firewall-modify-forward-settings.png)
 > 上圖是解決後的Firewall Site to Site VPN Forward規則設定
 
-這時我們者要將這個Src. Address List的限制拿掉，就可以恢復路由器之間的正常連線了。
-
-這時回到實驗室的機器看看紀錄的IP，也可以發現IP的紀錄如下圖所示，恢復成連線發起的來源內網IP位置了。
+回到實驗室的機器看看紀錄的IP，也可以發現IP的紀錄如下圖所示，恢復成連線發起的來源內網IP位置了。
 
 ![](/lan-ip-masquerade-issues/correct-ip-record.png)
 > 上圖是解決後實驗室機器所記錄的IP
