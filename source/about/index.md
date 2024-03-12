@@ -8,13 +8,14 @@ comments: false
 
 ## 基本資料與聯絡方式
 - 陳冠宇 / GUAN-YU CHEN &emsp; 1999年出生
-- [Email](mailto://areschentw@outlook.com)
+- [Email](mailto://ares30841167@gmail.com)
 - [Facebook](https://www.facebook.com/areschentw)
 - [IG](https://www.instagram.com/areschentw/)
 - [Github](https://github.com/ares30841167)
 
 ## 學歷
 - 元智大學資訊工程學系學士 2018/9月-2022/6月
+- 中央大學軟體工程碩士班 2023/9月-至今
 
 ## 曾經接觸過的語言、工具與技能
 - 接觸過且較為熟悉
@@ -61,3 +62,10 @@ comments: false
   - Help user make a roll call based on QRCode 
 - CS401 - Video Chat Based On WebRTC (Javascript, Node.js/Express, 2021)
   - Let user make video call via WebRTC protocol
+- [元智大學搶課機器人](https://github.com/ares30841167/yzu-course-bot)
+  - 說是一個元智大學搶課機器人的 "POC"，但其實偷偷告訴你，真的可以用
+- [中央人事系統自動簽到退小工具](https://github.com/ares30841167/ncu-human-sys-auto-sign)
+  - 自動簽到退的小工具，能在排定的時間自動打卡，免除需要設定鬧鐘手動簽到退的惡夢
+- [台鐵班次車票看門狗](https://github.com/ares30841167/tr-ticket-watcher)
+  - 一個可以不斷自動幫使用者檢查其所指定的班次列車空位情況，並在有空位時透過 Discord Webhook 傳送通知使用者的車票看門狗腳本
+  - 這是為了要去看演唱會，但是那時候買不到火車票，所以誕生的小工具
