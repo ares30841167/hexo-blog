@@ -1,6 +1,6 @@
 ---
 title: 【踩坑記】使用 Intel AMT IDER 功能掛載虛擬映像安裝 Ubuntu
-date: 2024-03-02 22:40:25
+date: 2024-09-16 00:23:16
 categories:
   - 踩坑記
 tags:
